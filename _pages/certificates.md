@@ -7,6 +7,10 @@ certs:
     caption: Winner, 2025 Energy Commission Senior High Schools Renewable Energy Challenge
   - image: /assets/images/certificates/slingshot.jpg
     caption: Honorable Mention, 2025 Slingshot Challenge, National Geographic Society and the Paul G. Allen Family Foundation
+  - image: /assets/images/certificates/ghana-stem-olympiad.jpg
+    caption: Highest Distinction, 4th Edition of the Ghana STEM Olympiad, Ghana Olympiad Academy (October 2025)
+  - image: /assets/images/certificates/kangaroo-math.jpg
+    caption: Gold Award, Kangaroo Mathematics Competition 2025, Ghana Olympiad Academy
   - image: /assets/images/certificates/summit-stem-fellowship.jpg
     caption: 2026 Summit STEM Fellow, Summit STEM Fellowship
   - image: /assets/images/certificates/one-million-birds.jpg

@@ -20,8 +20,8 @@ General Science (High School Diploma)
 
 ## Honors and achievements
 
-- Highest Distinction Award, 2025 Ghana STEM Olympiad, National, Grade 12 · [View](https://drive.google.com/file/d/1PKiuvm2-EIh2sEUBRFEcUsuvmRsW0AY7/view?usp=drive_link)
-- Gold Award, Kangaroo Mathematics Competition, 2025, Ghana Olympiad Academy, National, Grade 12 · [View](https://drive.google.com/file/d/19NHZZartUOYcKIr0XJz_xGsDQfGy31ui/view?usp=drive_link)
+- Highest Distinction Award, 2025 Ghana STEM Olympiad, National, Grade 12 · [View]({{ '/assets/images/certificates/ghana-stem-olympiad.jpg' | relative_url }})
+- Gold Award, Kangaroo Mathematics Competition, 2025, Ghana Olympiad Academy, National, Grade 12 · [View]({{ '/assets/images/certificates/kangaroo-math.jpg' | relative_url }})
 - Winner, 2025 Energy Commission Senior High Schools Renewable Energy Challenge (1st in School’s History), National, Grade 12 · [View]({{ '/assets/images/certificates/energy-commission.jpg' | relative_url }})
 - Honorable Mention, 2025 Slingshot Challenge: National Geographic Society & the Paul G. Allen Family Foundation, International, Grade 12 · [View]({{ '/assets/images/certificates/slingshot.jpg' | relative_url }})
 - Best Chemistry Student, PRESEC Boys' School, Grade 10 · [View]({{ '/assets/images/certificates/best-in-chemistry.jpg' | relative_url }})
