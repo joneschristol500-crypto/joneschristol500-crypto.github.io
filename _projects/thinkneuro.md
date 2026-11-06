@@ -40,7 +40,7 @@ learning:
     caption: Lecture from Prof. Shriya Srinivasan, Harvard Engineering, on the currency of science is trust
 ---
 
-**Research Intern, ThinkNeuro, LLC** · Neuroimaging Techniques & Analysis · June 2026 – August 2026
+**Research Intern and Co-Associate, ThinkNeuro, LLC** · Neuroimaging Techniques & Analysis · June 2026 – August 2026
 
 As part of a 10-member research team, I analyzed neuroimaging publication and citation data using R and RStudio. The work covered bibliometric research to identify trends, influential studies, and emerging techniques, along with R-based visualizations and bibliometric maps used to develop a research abstract.
 
