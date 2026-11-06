@@ -10,9 +10,9 @@ code:
   - image: /assets/images/ghanacodes/image-3.jpg
     caption: More code on tic-tac-toe using Python and the minimax algorithm
   - image: /assets/images/ghanacodes/image-4.jpg
-    caption: More lines of code on the tic-tac-toe minimax algorithm
-  - image: /assets/images/ghanacodes/image-5.jpg
     caption: Working through a merge sort implementation in Python
+  - image: /assets/images/ghanacodes/image-5.jpg
+    caption: A recursive substring exercise
 people:
   - image: /assets/images/ghanacodes/image-1.jpg
     caption: Office Hours with our Senior Instructor & Facilitator, Isabelle Quaye, SWE @ Apple, explaining recursion
