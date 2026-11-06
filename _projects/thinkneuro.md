@@ -4,6 +4,11 @@ excerpt: Neuroimaging techniques and analysis, from R code to a research poster.
 header:
   overlay_image: /assets/images/thinkneuro/video-1-still.jpg
   overlay_filter: 0.6
+acceptances:
+  - image: /assets/images/thinkneuro/yale-acceptance.jpg
+    caption: Acceptance email from the 2027 Yale Undergraduate Research Conference, sent to my research teammate Snigdha Anchoori
+  - image: /assets/images/thinkneuro/sccur-acceptance.jpg
+    caption: Acceptance email from the 2026 SCCUR Annual Conference, sent to my research teammate Snigdha Anchoori
 analysis:
   - image: /assets/images/thinkneuro/image-1.jpg
     caption: Lines of code written in R while building figures for the research
@@ -63,6 +68,17 @@ Azaan Asad, Farhat Ahmed, Dhriti Neogi, Christol Jones, Snigdha Anchoori, Elizab
   <a href="{{ '/assets/images/thinkneuro/poster.jpg' | relative_url }}"><img src="{{ '/assets/images/thinkneuro/poster.jpg' | relative_url }}" alt="Research poster: Multimodal Neuroimaging for Presurgical Localization in Pediatric Drug-Resistant Epilepsy" loading="lazy"></a>
   <figcaption>Select the poster to open it at full size.</figcaption>
 </figure>
+
+## Conference acceptances
+
+The research poster my group and I created has been accepted for presentation at two conferences:
+
+- **2027 Yale Undergraduate Research Conference**
+- **2026 SCCUR Annual Conference**, San Diego State University, November 21, 2026
+
+<div class="email-grid">
+{% include media.html items=page.acceptances %}
+</div>
 
 ## Analysis in R
 

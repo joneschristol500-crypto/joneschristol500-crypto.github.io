@@ -140,3 +140,14 @@ html { scroll-behavior: smooth; }
   background: #f1f4f5;
   object-fit: contain;
 }
+
+// Show acceptance emails at full height so they can be read.
+.email-grid .media-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+}
+.email-grid .media-grid__item img {
+  aspect-ratio: auto;
+  background: #fff;
+  border: 1px solid #dfe5e7;
+  object-fit: contain;
+}

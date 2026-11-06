@@ -22,7 +22,7 @@ feature_row:
   - image_path: /assets/images/thinkneuro/image-12.jpg
     alt: A laptop showing a research figure built during the ThinkNeuro internship
     title: ThinkNeuro Research
-    excerpt: Bibliometric research on multimodal neuroimaging for presurgical localization in pediatric drug-resistant epilepsy, analyzed in R.
+    excerpt: Bibliometric research on multimodal neuroimaging for presurgical localization in pediatric drug-resistant epilepsy, analyzed in R and accepted at the Yale Undergraduate Research Conference and SCCUR.
     url: /projects/thinkneuro/
     btn_label: See the research
     btn_class: btn--primary

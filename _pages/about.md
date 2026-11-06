@@ -27,6 +27,7 @@ General Science (High School Diploma)
 - Best Chemistry Student, PRESEC Boys' School, Grade 10 · [View]({{ '/assets/images/certificates/best-in-chemistry.jpg' | relative_url }})
 - Pre-Finalist Round, International Youth Math Challenge 2025 (IYMC), International, Grade 12
 - Participant, African Leadership Academy Accelerator Program, International, Grade 11 · [View]({{ '/assets/images/certificates/africa-leadership-academy.jpg' | relative_url }})
+- Research poster accepted for presentation at the 2027 Yale Undergraduate Research Conference and the 2026 SCCUR Annual Conference · [View]({{ '/projects/thinkneuro/' | relative_url }})
 - Selected for the GhanaCodes Program, 1 of 20 people from 2,000 applicants, with a full scholarship · [View]({{ '/assets/images/certificates/ghanacodes.jpg' | relative_url }})
 - 2026 Summit STEM Fellow, Summit STEM Fellowship · [View]({{ '/assets/images/certificates/summit-stem-fellowship.jpg' | relative_url }})
 - 4th place, 1 Million Birds Challenge, Bird2Branch · [View]({{ '/assets/images/certificates/one-million-birds.jpg' | relative_url }})
