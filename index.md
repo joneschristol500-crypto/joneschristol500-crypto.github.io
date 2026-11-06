@@ -51,7 +51,7 @@ feature_row2:
   - image_path: /assets/images/ghanacodes/image-6.jpg
     alt: The GhanaCodes cohort holding their graduation certificates
     title: GhanaCodes
-    excerpt: A Python and algorithms program covering recursion, merge sort, a minimax tic-tac-toe build, and algorithms for X-ray pixel data.
+    excerpt: One of 20 selected from 2,000 applicants, with a full scholarship, for a Python and algorithms program covering recursion, merge sort, a minimax tic-tac-toe build, and algorithms for X-ray pixel data.
     url: /projects/ghanacodes/
     btn_label: See the program
     btn_class: btn--primary

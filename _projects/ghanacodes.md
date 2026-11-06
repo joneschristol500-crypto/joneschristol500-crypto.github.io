@@ -10,9 +10,9 @@ code:
   - image: /assets/images/ghanacodes/image-3.jpg
     caption: More code on tic-tac-toe using Python and the minimax algorithm
   - image: /assets/images/ghanacodes/image-4.jpg
-    caption: Working through a merge sort implementation in Python
+    caption: More lines of code on the tic-tac-toe minimax algorithm
   - image: /assets/images/ghanacodes/image-5.jpg
-    caption: Writing algorithms for the X-ray pixel data
+    caption: Working through a merge sort implementation in Python
 people:
   - image: /assets/images/ghanacodes/image-1.jpg
     caption: Office Hours with our Senior Instructor & Facilitator, Isabelle Quaye, SWE @ Apple, explaining recursion
@@ -28,7 +28,15 @@ people:
     caption: A visit to Google in Ghana
 ---
 
-From 30 June to 19 July 2024, in the GhanaCodes program, I worked through Python labs, algorithms, and office hours with instructors, and earned a [certificate of completion]({{ '/assets/images/certificates/ghanacodes.jpg' | relative_url }}).
+<div class="stat-row">
+  <div><strong>20</strong> people selected</div>
+  <div><strong>2,000</strong> applicants</div>
+  <div><strong>Full</strong> scholarship to attend</div>
+</div>
+
+I was one of 20 people selected from 2,000 applicants, with a full scholarship to attend the GhanaCodes program.
+
+From 30 June to 19 July 2024, in the program, I worked through Python labs, algorithms, and office hours with instructors, and earned a [certificate of completion]({{ '/assets/images/certificates/ghanacodes.jpg' | relative_url }}).
 
 The work included building tic-tac-toe from scratch using Python and the minimax algorithm, studying recursion and merge sort, and writing algorithms for X-ray pixel data.
 
