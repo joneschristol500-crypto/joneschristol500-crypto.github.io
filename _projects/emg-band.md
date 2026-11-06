@@ -7,6 +7,8 @@ header:
 
 **PRESEC STEM Team** · Team concept · Business presentation, October 2024
 
+<a href="{{ '/assets/docs/ODADEE-EMG-Band-Presentation.pdf' | relative_url }}" class="btn btn--primary">View the presentation (PDF)</a>
+
 The ƆDADEƐ EMG Band is a concept for a wearable wristband designed for people with upper-limb amputations. Its goal is to bridge the gap between users and computer systems, so they can take part more fully in education, work, and social life.
 
 ## The problem
