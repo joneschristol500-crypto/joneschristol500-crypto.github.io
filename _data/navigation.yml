@@ -1,0 +1,11 @@
+main:
+  - title: Projects
+    url: /#projects
+  - title: About
+    url: /about/
+  - title: Certificates
+    url: /certificates/
+  - title: Resume
+    url: /assets/docs/Christol-Jones-Resume.pdf
+  - title: Contact
+    url: /contact/

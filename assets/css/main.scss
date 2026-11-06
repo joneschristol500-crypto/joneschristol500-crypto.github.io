@@ -1,0 +1,142 @@
+---
+# Front matter tells Jekyll to process this file.
+---
+
+@charset "utf-8";
+
+$global-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$header-font-family: "Source Serif 4", Georgia, serif;
+$primary-color: #0b5563;
+$link-color: #0b5563;
+$link-color-hover: #083c46;
+$link-color-visited: #0b5563;
+$masthead-link-color: #17252a;
+$masthead-link-color-hover: #0b5563;
+
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+html { scroll-behavior: smooth; }
+
+.masthead { border-bottom: 1px solid #e3e8ea; }
+.page__hero--overlay { background-position: center 22% !important; }
+.page__hero--overlay .page__title { font-size: clamp(2.4rem, 6vw, 4rem); }
+.page__hero--overlay .page__lead { max-width: 42rem; font-size: 1.15rem; line-height: 1.5; }
+
+// Keep every project card image the same shape.
+.feature__wrapper .archive__item-teaser img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  width: 100%;
+}
+.feature__wrapper { border-bottom: 0; }
+
+#projects { scroll-margin-top: 4rem; }
+
+.key-interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+}
+.key-interests li {
+  background: #e8f1f3;
+  border-radius: 999px;
+  color: #083c46;
+  font-size: .85rem;
+  margin: 0;
+  padding: .3rem .8rem;
+}
+
+.home-intro {
+  margin: 2rem auto 0;
+  max-width: 1280px;
+  padding: 0 1em;
+}
+
+.stat-row {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  margin: 1.5rem 0;
+}
+.stat-row div {
+  border-top: 3px solid #0b5563;
+  font-size: .9rem;
+  line-height: 1.35;
+  padding-top: .5rem;
+}
+.stat-row strong {
+  display: block;
+  font-family: $header-font-family;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.media-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  margin: 1.5rem 0 2.5rem;
+}
+.media-grid__item {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+.media-grid__item img,
+.media-grid__item video {
+  aspect-ratio: 4 / 3;
+  background: #10181b;
+  border-radius: 6px;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+.media-grid__item video { object-fit: contain; }
+.media-grid__item figcaption {
+  color: #4a5a60;
+  font-family: $global-font-family;
+  font-size: .85rem;
+  line-height: 1.4;
+  margin: .5rem 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+.poster-figure { margin: 1.5rem 0; }
+.poster-figure figcaption { font-family: $global-font-family; font-size: .85rem; }
+.poster-figure img { border: 1px solid #dfe5e7; border-radius: 6px; width: 100%; }
+
+.page__content h2 { border-bottom: 1px solid #e3e8ea; }
+.entry-line { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0 1rem; margin-bottom: .1rem; }
+.entry-line span { color: #4a5a60; font-size: .9rem; }
+
+// Not useful on a small portfolio: page dates and previous/next buttons.
+.page__meta, .page .pagination { display: none; }
+
+.about-photo {
+  border-radius: 6px;
+  float: left;
+  margin: .3rem 1.25rem .75rem 0;
+  width: 170px;
+}
+@media (max-width: 500px) {
+  .about-photo { float: none; display: block; margin: 0 0 1rem; width: 60%; }
+}
+.page__content h2 { clear: both; }
+
+// Show whole charts on project cards instead of cropping them.
+.feature__wrapper .archive__item-teaser img[src*="illustration"] {
+  background: #fff;
+  object-fit: contain;
+}
+
+// Show whole certificates instead of cropping them.
+.certificate-grid .media-grid__item img {
+  background: #f1f4f5;
+  object-fit: contain;
+}

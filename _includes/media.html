@@ -1,0 +1,15 @@
+<div class="media-grid">
+{%- for item in include.items %}
+  <figure class="media-grid__item">
+    {%- if item.video %}
+    <video controls preload="none" playsinline poster="{{ item.still | relative_url }}">
+      <source src="{{ item.video | relative_url }}" type="video/mp4">
+      <a href="{{ item.video | relative_url }}">Download the video</a>
+    </video>
+    {%- else %}
+    <a href="{{ item.image | relative_url }}"><img src="{{ item.image | relative_url }}" alt="{{ item.caption | escape }}" loading="lazy"></a>
+    {%- endif %}
+    <figcaption>{{ item.caption }}</figcaption>
+  </figure>
+{%- endfor %}
+</div>

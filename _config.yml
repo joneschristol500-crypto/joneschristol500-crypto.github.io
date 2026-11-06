@@ -1,0 +1,85 @@
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+
+title: Christol Jones
+name: Christol Jones
+description: >-
+  Aspiring Biomedical Engineer driven to close the diagnostic gap between rural
+  communities and centralized hospitals.
+locale: en-US
+# url and baseurl are filled in automatically by the deploy workflow,
+# so the site works on whichever GitHub account hosts it.
+url: ""
+baseurl: ""
+search: false
+words_per_minute: 200
+
+author:
+  name: Christol Jones
+  bio: Aspiring Biomedical Engineer
+  location: Accra, Ghana
+  links:
+    - label: Email
+      icon: fas fa-fw fa-envelope
+      url: mailto:joneschristol55@gmail.com
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: https://www.linkedin.com/in/christol-jones/
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/joneschristol500-crypto
+
+footer:
+  links:
+    - label: Email
+      icon: fas fa-fw fa-envelope
+      url: mailto:joneschristol55@gmail.com
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: https://www.linkedin.com/in/christol-jones/
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/joneschristol500-crypto
+
+atom_feed:
+  hide: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+sass:
+  style: compressed
+
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, vendor, .bundle, .github]
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jemoji
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope: { path: "", type: projects }
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      share: false
+      read_time: false
+      comments: false
+      toc: false
+  - scope: { path: "", type: pages }
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      read_time: false
+      comments: false
